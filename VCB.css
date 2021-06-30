@@ -1,0 +1,88 @@
+html{
+    font-size: 62.5%;
+    font-family: "poppins",sans-serif;
+}
+*{
+    box-sizing: border-box ;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.login{
+    width: 360px;
+    height: 651px;
+    background: url(https://images.unsplash.com/photo-1623552057504-d2dbfa09ee04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 3rem 6rem;
+
+}
+/* main.icon{
+    display: flex;
+    text-align: right;
+}
+main .icon img {
+    width: 36px;
+    margin-left: 3rem;
+} */
+main.container {
+    min-width: 100px;
+}
+main.footer{
+    min-height: 70vh;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 60px;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: -10px;
+}
+.silver-background {
+    background-color: #444950;
+    margin-right: -45px;
+    margin-left: -35px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: time new roman;
+    font-size: 10px;
+    padding: 0.5px;
+}
+button{
+    width: 105%;
+    height: -1rem;
+    color: black;
+    font-size: 105.5rem;
+    font-family: 350;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+}
+.login_signtup{
+    width: 100%;
+    background-color: #000;
+}
+.signup-btn{
+    background-color: #000;
+    margin-bottom: -15px;
+}
+
+
+
